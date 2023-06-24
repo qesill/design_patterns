@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="398f5f71-a9ea-4821-b7b3-984298de9473" name="Changes" comment="Prototype">
-      <change afterPath="$PROJECT_DIR$/src/builder/BuilderExample.java" afterDir="false" />
+    <list default="true" id="398f5f71-a9ea-4821-b7b3-984298de9473" name="Changes" comment="Builder">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory/AbstractCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory/AbstractFactoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory/CarInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory/FactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory/Merc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory/MercFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory/Volvo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory/VolvoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,20 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Wiktor/IdeaProjects/java001&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Wiktor/IdeaProjects/java001"
   }
-}</component>
-  <component name="RunManager" selected="Application.BuilderExample (5)">
-    <configuration name="BuilderExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder.BuilderExample" />
+}]]></component>
+  <component name="RunManager" selected="Application.AbstractFactoryExample">
+    <configuration name="AbstractFactoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstract_factory.AbstractFactoryExample" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="builder.*" />
+          <option name="PATTERN" value="abstract_factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryExample" />
         <item itemvalue="Application.BuilderExample (5)" />
         <item itemvalue="Application.BuilderExample (4)" />
         <item itemvalue="Application.BuilderExample (3)" />
         <item itemvalue="Application.BuilderExample (2)" />
-        <item itemvalue="Application.BuilderExample (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,13 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687384909052</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Builder">
+      <created>1687639592471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687639592472</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton" />
     <MESSAGE value="Factory" />
     <MESSAGE value="Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
+    <MESSAGE value="Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder" />
   </component>
 </project>
